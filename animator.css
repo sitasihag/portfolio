@@ -4,7 +4,7 @@ body{
 
 /* header */
 
-#navbar {
+#nav {
     position:fixed;
     top:0px;
     left:0px; 
@@ -33,6 +33,55 @@ a:hover{
 }
 
 /* portfolio */
+#slide1{
+    margin: 70px 0px 0px 0px;
+    width: 1320px;
+    height: 550px;
+    background-image: url(1074251_hacker-wallpaper-full-hd.jpg);
+    cursor: pointer;
+    background-size: 1320px 550px;
+}
+.fab{
+    color: rgb(2, 2, 22);
+    margin: 0px 0px 0px 450px;
+    cursor: text;
+    position: absolute;
+    animation: movee 15s infinite linear;
+}
+
+@keyframes movee {
+0%   {left: 0px; opacity: 1;}
+20%  {right: 10px; opacity: .8;}
+40%  {left: 100px; opacity: .6;}
+60%  {left: -100px; opacity: .4;} 
+80% {left: 10px; opacity: 2;} 
+100% {left: 0px; opacity: 1;}
+}
+
+.future{
+    cursor: text;
+    margin: 170px 0px 0px 400px;
+    font-size: 75px;
+    width: 830px;
+    line-height: 80px;
+    font-family: cursive;
+    color: rgb(9, 19, 32);
+    transform: translate(-43%);
+}
+.future{
+    color: rgb(255,255,255,.1);
+    background-image: url(istock-182747082-67513e4d2f9afc42710d06a802b9ee140321a3ac-s800-c85.jpg);
+    background-repeat: repeat-y;
+    -webkit-background-clip: text;
+    animation: anima 15s linear infinite;
+}
+
+@keyframes anima{
+    0% {background-position: left 0px top 80px;}
+    40% {background-position: left 270px top -50px;}
+    80% {background-position: left 540px top -50px;}
+    100% {background-position: left 810px top 80px;}
+}
 
  .AKS{
     font-family: 'Trebuchet MS', sans-serif;
@@ -140,15 +189,12 @@ h3{
     margin: -60px 0px 0px 100px;
 }
 .be{
+    color: white;
     background: rgb(231, 117, 136);
 }
-
-
-
-
 .loader{
     position: absolute;
-    top:1380px;
+    top:1960px;
     left: 49%;
     transform: translate(-43%);
 }
@@ -171,7 +217,27 @@ h3{
     100% {background-position: left 2400px top 80px;}
 }
 
-#am{
+.ill{
+    color:white;
+    margin: -600px 0px 0px 10px;
+    position: absolute;
+    width: 140px;
+    height: 45x;
+    text-align: center;
+    line-height: 2px;
+    font-size: 25px;
+    animation: mymove 7s infinite;
+}
+
+@keyframes mymove {
+    0%   {background: rgb(109, 2, 55); left: 0px;}
+    25%  {background: rgb(170, 34, 102);}
+    50%  {background: rgb(201, 62, 131); left: 100px;}
+    75%  {background: rgb(224, 93, 159); left: -10px;} 
+    100% {background: rgb(109, 2, 55); left: 0px;} 
+  }
+
+#slide3{
     margin: 120px 0px 0px 320px;
     width: 720px;
     border: 5px groove white;
@@ -206,6 +272,16 @@ h3{
     margin: -110px 0px 0px 520px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.exper{
+    color: white;
+    opacity: .5;
+    font-size: 18px;
+    font-style: oblique;
+    margin: 75px 0px 0px 710px;
+    position: absolute;
+}
+
 .my{
     margin: -92px 0px 0px 190px;
 }
