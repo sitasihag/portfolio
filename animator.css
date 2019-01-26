@@ -37,12 +37,12 @@ a:hover{
     margin: 70px 0px 0px 0px;
     width: 1320px;
     height: 550px;
-    background-image: url(1074251_hacker-wallpaper-full-hd.jpg);
+    background-image: url(black-background-dark-facial-hair-761684.jpg);
     cursor: pointer;
     background-size: 1320px 550px;
 }
 .fab{
-    color: rgb(2, 2, 22);
+    color: white;
     margin: 0px 0px 0px 450px;
     cursor: text;
     position: absolute;
@@ -70,11 +70,63 @@ a:hover{
 }
 .future{
     color: rgb(255,255,255,.1);
-    background-image: url(istock-182747082-67513e4d2f9afc42710d06a802b9ee140321a3ac-s800-c85.jpg);
-    background-repeat: repeat-y;
+    background-image: url(firework.png);
+    background-repeat: unset;
     -webkit-background-clip: text;
     animation: anima 15s linear infinite;
 }
+
+.this{
+    margin: -270px 0px 0px 970px;
+    position: absolute;
+}
+
+h1 span {
+    background: none;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    animation: bounce .3s ease infinite alternate;
+    font-family: 'Titan One', cursive;
+    font-size: 50px;
+    color: #FFF;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .4);
+  }
+  
+  h1 span:nth-child(2) { animation-delay: .1s; }
+  h1 span:nth-child(3) { animation-delay: .2s; }
+  h1 span:nth-child(4) { animation-delay: .3s; }
+  h1 span:nth-child(5) { animation-delay: .4s; }
+  h1 span:nth-child(6) { animation-delay: .5s; }
+  h1 span:nth-child(7) { animation-delay: .6s; }
+  h1 span:nth-child(8) { animation-delay: .7s; }
+  h1 span:nth-child(9) { animation-delay: .8s; }
+  h1 span:nth-child(10) { animation-delay: .9s; }
+  
+  @keyframes bounce {
+    100% {
+      top: -20px;
+      text-shadow: 0 3px 0 #CCC,
+                   0 4px 0 #CCC,
+                   0 6px 0 #CCC,
+                   0 8px 0 #CCC,
+                   0 10px 0 #CCC,
+                   0 12px 0 #CCC,
+                   0 14px 0 #CCC,
+                   0 16px 0 #CCC,
+                   0 18px 0 #CCC,
+                   0 50px 25px rgba(0, 0, 0, .2);
+    }
+  }
 
 @keyframes anima{
     0% {background-position: left 0px top 80px;}
@@ -104,17 +156,6 @@ span{
 }
 
 /* image */
-
-.gift{
-    border-radius: 50%;
-    margin: 10px 40px 0px 20px;
-    width: 50px;
-    height: 50px;
-    background-image: url(90374388-cute-baby-penguin-cartoon-sitting.jpg);
-    background-size: 50px 50px;
-    position: absolute;
-    cursor: pointer;
-}
 img{
     cursor: pointer;
 }
