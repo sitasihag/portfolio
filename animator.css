@@ -34,12 +34,12 @@ a:hover{
 
 /* portfolio */
 #slide1{
-    margin: 70px 0px 0px 0px;
-    width: 1320px;
-    height: 550px;
-    background-image: url(black-background-dark-facial-hair-761684.jpg);
+    margin: 70px 0px 0px -7px;
+    width: 1335px;
+    height: 556px;
+    background-image: url(man-with-guitar-159463.jpg);
     cursor: pointer;
-    background-size: 1320px 550px;
+    background-size: 1335px 556px;
 }
 .fab{
     color: white;
@@ -51,10 +51,10 @@ a:hover{
 
 @keyframes movee {
 0%   {left: 0px; color: white;}
-20%  {right: 10px; color: rgb(71, 70, 70);}
-40%  {left: 100px; color: rgb(37, 37, 37);}
-60%  {left: -100px; color: rgb(24, 23, 23);} 
-80% {left: 10px; color: black;} 
+20%  {right: 10px; color: rgb(206, 10, 180);}
+40%  {left: 100px; color: rgb(221, 63, 150);}
+60%  {left: -100px; color: rgb(224, 108, 176);} 
+80% {left: 10px; color: rgb(255, 192, 203);} 
 100% {left: 0px; color: white;}
 }
 
@@ -89,7 +89,7 @@ h1 span {
     animation: bounce .3s ease infinite alternate;
     font-family: 'Titan One', cursive;
     font-size: 50px;
-    color: #FFF;
+    color: rgb(236, 38, 177);
     text-shadow: 0 1px 0 #CCC,
                  0 2px 0 #CCC,
                  0 3px 0 #CCC,
