@@ -37,7 +37,7 @@ a:hover{
     margin: 70px 0px 0px -7px;
     width: 1335px;
     height: 556px;
-    background-image: url(man-with-guitar-159463.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(man-with-guitar-159463.jpg);
     cursor: pointer;
     background-size: 1335px 556px;
 }
@@ -95,7 +95,7 @@ h1 span {
     top: 20px;
     display: inline-block;
     animation: bounce .7s ease infinite alternate-reverse;
-    font-family: 'Titan One', cursive;
+    font-family: 'Flamenco', cursive;
     font-size: 50px;
     color: rgb(5, 5, 26);
     text-shadow: 0 1px 0 #ccc,
