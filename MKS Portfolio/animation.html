@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Developer MKS Porsfolio</title>
+    <link rel="stylesheet" href="animator.css">
+    <link rel="icon" type="icon/jpg" href="IMG_20170208_071640.jpg" style="border-radius:50%;">
+    <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+    <script type="text/javascript" src="js/animation.js"></script>
+    <!-- <script src="animation.js"></script> -->
+</head>
+<body>
+
+    <header>
+        <audio autoplay loop id="myaudio">
+            <source src="bensound-acousticbreeze.mp3" type="audio/mpeg">
+        </audio>
+        
+        <script>
+            var audio = document.getElementById("myaudio");
+            audio.volume = 0.1;
+        </script>
+        <nav id="nav">
+            <div class="AKS">
+                <b>MKS</b>|Portfolio
+            </div>
+            <ul>
+                <li><a href="#slide1" class="Section" title="active" >Home</a></li>
+                <li><a href="#slide2" title="Next Section">About</a></li>
+                <li><a href="#work" title="Next Section">Work</a></li>
+                <li><a href="#slide4" title="Next Section">Skills</a></li>
+                <li><a href="#slide5" title="Next Section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="slide1">
+        <h4 class="fab">Fascinated | Fabricate | Fabulous</h4>
+        <h3 class="future">The Future Belongs To Those Who Believe In The Beauty Of Their Dreams.</h3>
+    </div>
+    <div class="this"><h1>
+        <span>T</span>
+        <span>h</span>
+        <span>i</span>
+        <span>s</span>
+        <span>I</span>
+        <span>s</span>
+        <span>M</span>
+        <span>K</span>
+        <span>S</span>
+      </h1></div>
+    <br><br>
+
+    <!-- mukeshimage -->
+
+    <div class="img" id="slide2"></div>
+
+    <!-- create -->
+
+    <h4>Creative | Passionate | Focused</h4>
+
+    <!-- bodyimage -->
+
+        <img src="Screenshot (14).png" alt="" class="dgsadhds">
+
+    <!-- myself -->
+
+<div class="hh"><h2>Mukesh Kumar Sihag is a <span>Web Developer.</span> He is a sophomore studying at <span>National Institute of Technology</span>, <span>Hamirpur</span>, India. He strives to create usable and polished projects through passionate and deliberate design.</div>
+<div class="hg"><h2>He is a designer with a passion for designing beautiful and functional user experiences and a coder who focuses on writing clean, elegant and efficient code.</h2></div>
+ <div class="hp"><h2>He has a Type A personality and loves challenges. He loves to color and likes to play with them while <span>designing & developing</span>. Being a self-learner & an enthusiast, he is never afraid to learn and do anything.</h2></div>
+
+<!-- img -->
+
+    <div>
+        <img src="Screenshot (12).png" alt="" class="aju" id="iudgyjgei">
+    </div>
+    <div class="believe"><h3>" I believe that if you show people the <span>problems</span> and you <span>show</span> them the <span>solutions</span> they will be moved to act. "</h3></div>
+    <div class="best"><h4><span class="be" id="work">Be Your Best.</span></h4></div>
+
+    <!-- animation -->
+
+    <div class="w3-content w3-section" id="slide3">
+        <img class="mySlides" src="5596e3_7f56aaa2753242b5a47540c7a56f6921_mv2_d_3508_2480_s_4_2.png">
+        <img class="mySlides" src="5596e3_69616f24dc434c679dfc4995aee43d37_mv2_d_3508_2480_s_4_2.jpg">
+        <img class="mySlides" src="5596e3_aea75d67b644406db53fe1bf5dad4e89_mv2_d_2480_3508_s_4_2.jpg">
+        <img class="mySlides" src="5596e3_b3dbd8b534204ebe8f56b377cec9b553_mv2.jpg">
+        <img class="mySlides" src="5596e3_edab09f855ac46b4a64e3a270e7065c6_mv2.jpg">
+        <img class="mySlides" src="5596e3_d814c1992f32493fbf04aa437e7596a0_mv2.jpg">
+        <img class="mySlides" src="5596e3_c7b59b2c90a2413da8f3e8b45d62d722_mv2_d_3508_2493_s_4_2.jpg">
+        <img class="mySlides" src="5596e3_2caa8c7edf0f4db48703247c67045afb_mv2_d_3584_2556_s_4_2.jpg">
+    </div>
+
+
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); 
+        }
+        </script>
+
+    <div class="loader" >
+        <h1>Graphics Designs.</h1>
+    </div>
+    <div class="ill"><h1>|Skills</h1></div>
+    <div class="exper"><p>Experience: 1+ Year</p></div>
+    <div class="php">
+        <h1>HTML & CSS </h1><div><h3>my programming journey with HTML & CSS.</h3></div>
+    </div>
+    <div class="my" id="slide4"><h3>I always want to create something beautiful and never seen before.
+        So in collage, with the basic understanding of these languages, I have created many projects. 
+        But moving to App development didn't give me enough time to explore how I could exploit these languages. 
+        Inclined to designing I have always loved to write CSS more as it helps to make elementary HTML website look beautiful.
+        I am comfortable in reading and writing HTML & CSS. With the introduction to AngularJS,
+        I am nowadays brushing up my web designing skills.
+    </h3></div>
+    <div class="skills">Other Skills</div>
+    <div class="other"><div>Sketching & Painting</div><div><h5>C/C++</h5></div></div>
+    <div class="xd">XD Illustrator</div>
+    <div class="hm"><h7>Python</h7></div>
+    <div class="sql">C# SQL</div>
+    <div class="java">JavaScript</div>
+    <div class="phd">PHP</div>
+    <div class="ruby">Ruby & Rails</div>
+    <div class="android">Android Studio</div>
+    <div class="vfx">Vfx & Animation</div>
+    <div class="js">React Js</div>
+    <img src="Screenshot (15).png" alt="" class="pancil">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer class="footer" id="slide5">
+            <h4 class="contact">Contact</h4>
+            <div class="contac">___</div>
+            <h7 class="cla">Tel. +91-9079971790</h7>
+            <h7 class="cla">@github/mukeshsihag</h7>
+            <h7 class="email">Email: sihagmukesh22@gmail.com</h7>
+            <h4 class="akk">"I Believe: Main beliefs are your windows for the code of your brain."</h4>
+    </footer>
+
+</body>
+</html>
